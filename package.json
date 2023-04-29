@@ -1,0 +1,25 @@
+{
+  "name": "skeleton",
+  "version": "0.1.0",
+  "description": "A fast and simple authentication solution.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksrutins/skeleton.git"
+  },
+  "keywords": [
+    "authentication"
+  ],
+  "author": "Aleks Rutins <aleks@rutins.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleksrutins/skeleton/issues"
+  },
+  "homepage": "https://github.com/aleksrutins/skeleton#readme",
+  "devDependencies": {
+    "tsup": "^6.7.0"
+  }
+}
